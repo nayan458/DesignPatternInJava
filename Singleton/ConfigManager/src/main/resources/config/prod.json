@@ -1,0 +1,8 @@
+{
+  "app.name": "DemoApp",
+  "db.url": "jdbc:mysql://localhost:3306/devdb",
+  "db.username": "prod_user",
+  "db.password": "prod_pass",
+  "feature.newUI": true,
+  "max.connections": 10
+}
