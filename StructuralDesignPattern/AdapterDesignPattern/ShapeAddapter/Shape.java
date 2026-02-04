@@ -1,17 +1,21 @@
-import java.util.*;
 
-class RoundHole {
-    private int radius;
+interface Hole {
+    public int getRadius();
+}
+
+class RoundHole implements Hole{
+    private final int radius;
 
     public RoundHole(int radius) { this.radius = radius; }
 
+    @Override
     public int getRadius() { return this.radius; }
 
     public boolean fits(RoundPeg peg) { return this.radius >= peg.getRadius();}
 }
 
 class RoundPeg {
-    private int radius;
+    private final int radius;
 
     public RoundPeg(int radius) { this.radius = radius; }
 
@@ -19,7 +23,7 @@ class RoundPeg {
 }
 
 class SquarePeg {
-    private int width;
+    private final int width;
 
     public SquarePeg(int width) { this.width = width; }
     
@@ -27,7 +31,7 @@ class SquarePeg {
 }
 
 class SquarePegAdapter extends RoundPeg {
-    private SquarePeg peg;
+    private final SquarePeg peg;
 
     public SquarePegAdapter(SquarePeg peg) { 
         super(0);
