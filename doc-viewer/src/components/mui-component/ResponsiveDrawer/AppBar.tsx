@@ -29,7 +29,7 @@ const AppBarNavigation: React.FC<AppBarNavigationInterface> =({drawerWidth, hand
                     <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" noWrap component="div">
-                    Responsive drawer
+                    Auto Generated Documentation
                     </Typography>
                 </Toolbar>
             </AppBar>
