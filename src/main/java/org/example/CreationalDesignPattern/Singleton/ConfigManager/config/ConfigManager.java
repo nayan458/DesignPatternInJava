@@ -1,10 +1,11 @@
-package com.configmanager.config;
-import java.util.*;
+package org.example.CreationalDesignPattern.Singleton.ConfigManager.config;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ConfigManager {
 
     private static volatile ConfigManager instance;
-    private Map<String, String> data;
+    private final Map<String, String> data;
 
     private ConfigManager(Environment env) {
         System.out.println("Loading config for " + env + "...");

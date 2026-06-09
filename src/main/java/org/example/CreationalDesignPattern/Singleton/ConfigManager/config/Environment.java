@@ -1,4 +1,4 @@
-package com.configmanager.config;
+package org.example.CreationalDesignPattern.Singleton.ConfigManager.config;
 
 public enum Environment {
     DEV("config/dev.json"),

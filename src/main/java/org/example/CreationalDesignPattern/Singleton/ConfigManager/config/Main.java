@@ -1,4 +1,4 @@
-package com.configmanager.config;
+package org.example.CreationalDesignPattern.Singleton.ConfigManager.config;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
