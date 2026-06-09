@@ -90,11 +90,17 @@ class FacebookDecorator extends BaseNotifierDecorator {
 
 public class NotificationInterface {
     public static void main(String[] args) {
-        INotifier notifier = new FacebookDecorator(
+        INotifier facebookAndWhatsAppNotifier = new FacebookDecorator(
             new WhatsAppDecorator(
                 new Notifier("Geek")
             )
         );
-        notifier.send("this is a message");
+        // INotifier facebookAndWhatsAppNotifier = new FacebookDecorator(
+        //     new WhatsAppDecorator(
+        //         new Notifier("Geek")
+        //     )
+        // );
+
+        facebookAndWhatsAppNotifier.send("this is a message");
     }
 }
