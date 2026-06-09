@@ -1,4 +1,8 @@
-import java.util.*;
+package org.example.StructuralDesignPattern.ProxyDesignPattern.ThirdPartyYoutubeLib;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 // The interface of a remote service.
 interface ThirdPartyYouTubeLib {

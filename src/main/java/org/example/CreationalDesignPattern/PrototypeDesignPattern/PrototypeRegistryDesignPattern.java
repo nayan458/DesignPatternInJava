@@ -1,3 +1,5 @@
+package org.example.CreationalDesignPattern.PrototypeDesignPattern;
+
 import java.util.HashMap;
 import java.util.Map;
 

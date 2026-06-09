@@ -1,4 +1,4 @@
-import java.util.*;
+package org.example.StructuralDesignPattern.BridgeDesignPattern.ShapesAndColors;
 
 abstract class Shape {
     public Color c;

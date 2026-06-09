@@ -1,3 +1,5 @@
+package org.example.StructuralDesignPattern.DecoratorDesignPatther.DiscountSystem;
+
 // Component interface
 interface PriceComponent {
     double getPrice();

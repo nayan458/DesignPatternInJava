@@ -1,3 +1,5 @@
+package org.example.CreationalDesignPattern.PrototypeDesignPattern;
+
 abstract class Vehicle {
     String brand;
     String model;
@@ -28,15 +30,13 @@ class Car extends Vehicle {
 
     @Override
     public String toString() {
-        return String.format("""
-                                Car [
-                                model: %s
-                                color: %s
-                                brand: %s
-                                glassType: %s
-                                ]
-                                """, this.model, this.color, this.brand, this.glassType);
-        }
+        return "Car [\n" +
+                "model: " + this.model + "\n" +
+                "color: " + this.color + "\n" +
+                "brand: " + this.brand + "\n" +
+                "glassType: " + this.glassType + "\n" +
+                "]";
+    }
 
 }
 

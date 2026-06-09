@@ -1,3 +1,4 @@
+package org.example.StructuralDesignPattern.AdapterDesignPattern.ShapeAddapter;
 
 interface Hole {
     public int getRadius();

@@ -1,4 +1,7 @@
-import java.util.*;
+package org.example.CreationalDesignPattern.PrototypeDesignPattern.GameCharacter;
+
+import java.util.HashMap;
+import java.util.Map;
 
 class GameCharacterRegistry {
     private Map<String, GameCharacter<?>> hm = new HashMap<>();

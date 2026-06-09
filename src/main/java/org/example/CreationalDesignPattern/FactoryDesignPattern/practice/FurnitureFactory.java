@@ -1,3 +1,5 @@
+package org.example.CreationalDesignPattern.FactoryDesignPattern.practice;
+
 interface Chair {
     void hasLegs();
     void sitOn();

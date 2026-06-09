@@ -1,3 +1,5 @@
+package org.example.CreationalDesignPattern.FactoryDesignPattern;
+
 interface Transport {
     void deliver();
 }

@@ -1,4 +1,7 @@
-import java.util.*;
+package org.example.StructuralDesignPattern.FlyWeightDesignPattern.Forest;
+
+import java.util.ArrayList;
+import java.util.List;
 
 class Tree {
     byte[] sprite = new byte[20 * 1024];

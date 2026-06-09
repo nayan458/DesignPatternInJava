@@ -1,3 +1,5 @@
+package org.example.CreationalDesignPattern.PrototypeDesignPattern;
+
 interface Prototype<T> {
     T copy();
 }

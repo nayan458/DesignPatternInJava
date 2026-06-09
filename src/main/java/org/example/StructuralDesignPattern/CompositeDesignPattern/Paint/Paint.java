@@ -1,3 +1,5 @@
+package org.example.StructuralDesignPattern.CompositeDesignPattern.Paint;
+
 import java.util.ArrayList;
 import java.util.List;
 

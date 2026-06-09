@@ -1,3 +1,5 @@
+package org.example.CreationalDesignPattern.BuilderPattern;
+
 class House {
     private String walls;
     private String floor;
@@ -55,7 +57,7 @@ interface HouseBuilder {
 
 class SimpleHouseBuilder implements HouseBuilder {
 
-    private House house;
+    private final House house;
 
     public SimpleHouseBuilder() {
         this.house = new House();
@@ -94,7 +96,7 @@ class SimpleHouseBuilder implements HouseBuilder {
 
 class LuxuryHouseBuilder implements HouseBuilder {
 
-    private House house;
+    private final House house;
 
     public LuxuryHouseBuilder() {
         this.house = new House();
@@ -132,7 +134,7 @@ class LuxuryHouseBuilder implements HouseBuilder {
 }
 
 class HouseDirector {
-    private HouseBuilder builder;
+    private final HouseBuilder builder;
 
     public HouseDirector(HouseBuilder builder) {
         this.builder = builder;

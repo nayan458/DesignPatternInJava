@@ -1,3 +1,4 @@
+package org.example.StructuralDesignPattern.DecoratorDesignPatther.NotificationSystem;
 
 class DatabaseService {
     private final String username;

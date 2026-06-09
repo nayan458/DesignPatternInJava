@@ -1,4 +1,8 @@
-import java.util.*;
+package org.example.StructuralDesignPattern.CompositeDesignPattern.OrderPrice;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 interface Box {
     double calculatePrice();     // corrected spelling

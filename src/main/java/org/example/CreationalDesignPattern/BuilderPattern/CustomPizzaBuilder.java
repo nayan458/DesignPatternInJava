@@ -1,3 +1,5 @@
+package org.example.CreationalDesignPattern.BuilderPattern;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,6 +23,7 @@ class Pizza {
     }
 
     // Public Getters (No setters, preserving immutability)
+    @Override
     public String toString() {
         return "Pizza [\n" +
             "  Size: " + size + "\n" +
